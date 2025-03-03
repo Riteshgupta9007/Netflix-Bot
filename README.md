@@ -1,2 +1,2 @@
 # Netflix-Bot
-This is Clone of netflix-music player
+This is Clone of netflix-music player.

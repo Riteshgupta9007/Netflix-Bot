@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Latest News */
+#latest-news article {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+#latest-news article h3 {
+    color: #0073e6;
+}
+
+#latest-news article a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#latest-news article a:hover {
+    text-decoration: underline;
+}
+
+/* Categories */
+#categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+#categories ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+#categories ul li a {
+    background: #0073e6;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#categories ul li a:hover {
+    background: #005bb5;
+}
+
+/* Trending Topics */
+aside {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+aside h2 {
+    color: #333;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
